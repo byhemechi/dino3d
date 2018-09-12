@@ -7,8 +7,7 @@ extends KinematicBody
 var angle = Vector3(0, 0, 0)
 
 func _physics_process(delta):
-	if 1 < 0:
-		angle.y += 0.98
+	angle.y -= 0.98
 	if Input.is_action_just_pressed("jump"):
 		angle.y = 17
 	if Input.is_action_pressed("ui_left"):
