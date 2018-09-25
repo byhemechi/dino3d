@@ -9,4 +9,3 @@ func _process(delta):
 	translation.x -= 10  * delta
 	if translation.x < -10:
 		queue_free()
-	translation.y += 1 * delta
